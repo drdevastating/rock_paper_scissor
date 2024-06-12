@@ -16,4 +16,4 @@ function getHumanChoice(){
     let x = prompt("Enter your choice: ");
     return x;
 }
-let x=0,y=0;
+let humanScore=0,computerScore=0;
