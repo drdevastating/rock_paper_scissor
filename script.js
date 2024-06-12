@@ -40,7 +40,9 @@ function playRound(humanChoice,computerChoice){
 
 function playGame(){
     for (let i=0; i<5; i++){
-        playRound();
+        let x=getComputerChoice();
+        let y=getHumanChoice();
+        playRound(y,x);
     }
     console.log(`Scores -> Human: ${humanScore}, Computer: ${computerScore}`);
     if (humanScore>computerScore)
@@ -50,3 +52,5 @@ function playGame(){
     else
         console.log("It's a draw...");
 }
+
+playGame();
