@@ -37,3 +37,16 @@ function playRound(humanChoice,computerChoice){
         computerScore++;
     }
 }
+
+function playGame(){
+    for (let i=0; i<5; i++){
+        playRound();
+    }
+    console.log(`Scores -> Human: ${humanScore}, Computer: ${computerScore}`);
+    if (humanScore>computerScore)
+        console.log("Congrats! You won!");
+    else if (computerScore>humanScore)
+        console.log("Sorry! You lost!");
+    else
+        console.log("It's a draw...");
+}
