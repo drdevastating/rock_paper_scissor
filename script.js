@@ -11,3 +11,9 @@ function getComputerChoice() {
     else
         return "scissors";
 }
+
+function getHumanChoice(){
+    let x = prompt("Enter your choice: ");
+    return x;
+}
+let x=0,y=0;
