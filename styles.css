@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 48px;
+    background-color: black;
+}
+.title{
+    font-size: 2pc;
+    font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    margin-bottom: 48px;
+}
+.options{
+    display: flex;
+    justify-content: space-evenly
+}
+button{
+    font-family: "Times New Roman", Times, serif;
+    cursor: pointer; 
+    border-radius: 6px;
+    color: black;
+    background-color: cyan;
+    padding: 15px 32px;
+    font-size: 24px;
+    margin: 4px 2px;
+    width: 200px;
+    height: 60px;
+    margin-bottom: 48px;
+}
+button:hover{
+    background-color: dodgerblue;
+}
+#message{
+    color: white;
+    font-size: 20px;
+}
